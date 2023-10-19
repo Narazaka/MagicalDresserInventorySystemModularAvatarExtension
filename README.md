@@ -12,6 +12,8 @@ Modular AvatarとMagicalDresserInventorySystem（マジックドレッサーイ�
 
 「Add Component」から「MA MagicalDresserInventory」を追加してよしなに
 
+![screenshot](MAMDI.png)
+
 ## License
 
 [Zlib License](LICENSE.txt)
