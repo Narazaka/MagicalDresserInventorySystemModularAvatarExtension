@@ -1,0 +1,16 @@
+{
+  "name": "net.narazaka.vrchat.magical-dresser-inventory-system-modular-avatar-extension",
+  "version": "1.0.1",
+  "displayName": "MagicalDresserInventorySystem ModularAvatar Extension",
+  "description": "MagicalDresserInventorySystem with ModularAvatar",
+  "author": {
+    "name": "Narazaka",
+    "url": "https://github.com/Narazaka"
+  },
+  "license": "Zlib",
+  "type": "tool",
+  "url" : "https://github.com/Narazaka/MagicalDresserInventorySystemModularAvatarExtension.git",
+  "vpmDependencies": {
+    "nadena.dev.modular-avatar": ">=1.8.0"
+  }
+}
