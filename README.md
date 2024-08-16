@@ -14,6 +14,11 @@ Modular AvatarとMagicalDresserInventorySystem（マジックドレッサーイ�
 
 ![screenshot](MAMDI.png)
 
+「MA MagicalDresserInventory」はマジックドレッサーインベントリのアセットを指定するだけで、そのAnimator、メニュー、パラメーターをMAで結合するコンポーネントです。
+マジックドレッサーインベントリの各Animatorやメニューは再セットアップするごとに参照が変わってしまい、かつパラメーターもMA移植するのが面倒であるために、そのままではMAで結合するのが煩わしいため作りました。
+
+マジックドレッサーインベントリ自体の挙動は変更しないため、マジックドレッサーインベントリのセットアップ時にアバターデータを破壊的変更しないためには、事前に空のメニューやAnimatorを設定しておくなどの対策が必要になります。VRCAssetMergerについてくるVRCAvatarAssetsSetterなどを使って下さい。
+
 ## License
 
 [Zlib License](LICENSE.txt)
